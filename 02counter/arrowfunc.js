@@ -1,8 +1,7 @@
-const func1  = () => {
-    let username = "shiam";
-    console.log(this)
-}
-func1();
+const func1  = (num1,num2) => (
+    num1+num2
+)
+console.log(func1(3,7));
 
 
 // const user = {
